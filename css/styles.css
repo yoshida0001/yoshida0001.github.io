@@ -1,5 +1,42 @@
-h1 {
-  font-size: 24px;
-  padding-left: 16px;
-  border-left: 8px solid green;
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  background: green;
+  color: #fff;
+  text-align: center;
+  padding-top: 64px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+header img {
+  width: 280px;
+  vertical-align: bottom;
+}
+
+.btn {
+  text-decoration: none;
+  background: #fff;
+  color: green;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 40px auto 48px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
