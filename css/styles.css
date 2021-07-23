@@ -40,3 +40,55 @@ header img {
 .btn:hover {
   opacity: 0.9;
 }
+
+.features img {
+  width: 100%;
+}
+
+.features > h1 {
+  text-align: center;
+  padding: 64px 0;
+  font-weight: normal;
+}
+
+.features .container {
+  margin: 0 32px;
+}
+
+.feature p {
+  line-height: 1.8;
+}
+
+.features section {
+  padding-bottome: 64px;
+}
+
+.members {
+  background: #f2f2f3;
+}
+
+.members > h2 {
+  text-align: center;
+  padding: 64px 0;
+  font-weight: normal;
+}
+
+.members ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.members img {
+  width: 160px;
+  border-radius: 50%
+}
+
+.members h2 {
+  font-size: 20px;
+}
+
+.members li {
+  padding-bottom: 64px;
+}
