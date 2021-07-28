@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+  color: #333;
+}
+
+p {
+  margin: 0;
+}
+
+.box1 {
+  background: orange;
+}
+
+.box2 {
+  background: blue;
+}
+
+.box3 {
+  background: tomato;
+}
+
+.box4 {
+  background: green;
+}
+
+.box5 {
+  background: yellow;
+}
+
+.box6 {
+  background: skyblue;
+}
+
+
+footer {
+  padding: 100px 0;
+  background: #323135;
+  color: #fff;
+  text-align: center;
+}

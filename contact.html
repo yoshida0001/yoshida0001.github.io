@@ -2,26 +2,50 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>お問合せ</title>
-<meta name="description" content="吉田農園へのお問合せはこちらへ">
+<meta name="viewport" content="width=device-width, initial-scale-1">
+<title>吉田脳変へのお問合せはコチラへ</title>
+<meta name="description" content="吉田農園へのお問合せページはこちらへ">
+<link rel="stylesheet" href="css/contact.css">
 <link rel="icon" herf="favicon.ico">
 </head>
 <body>
 <header>
 </header>
+<h1>お問合せ</h1>
+<p>お問合せはこちらから</p>
 <form action="process.php" method="post">
 <label for="お問合せ内容">お問合せ内容</label>
+
+<div class="box1">
 <select id="お問合い内容">
 <option>商品に関すること</opitoon>
 <option>法人に関すること</opitoon>
 <option>求人に関すること</opitoon>
 </select>
+</div>
+
+<div class="box2">
 <label>氏名<input type="text" name="username" placeholder="ヨシダタロウ"></label>
+</div>
+
+<div class="box3">
 <label>電話番号<input type="tel" name="usertel" placeholder="096000000"></label>
+</div>
+
+<div class="box4">
 <label>メールアドレス<input type~"email" name="useremail"  placeholder="taro@yoshidanouen.co.jp"></label>
+</div>
+
+<div class="box5">
 <label>その他<input type="text" name="usertext" placeholder="有機野菜について"></label>
+</div>
+
+<div class="box6">
 <button>OK</button>
+</div>
+
 <footer>
+  (c) 2021 Yoshida LTD.
 </footer>
 </body>
 </html>
